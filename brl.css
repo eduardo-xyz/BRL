@@ -1,0 +1,221 @@
+body, html{
+	height:100%;
+}
+
+body {
+  background-color:white;
+  min-height: 1000px;
+  font-family: Verdana,"Trebuchet MS",sans-serif;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+#main{
+	height: 1000px;
+    min-height: 1000px;
+    width: 820px;
+    background: none repeat scroll 0 0 transparent;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header{
+	margin-bottom: 20px;
+}
+#header img.logo{
+	height: 75px;
+	width: 75px;
+}
+#header div.logo{
+	float: left;
+}
+#header h1{
+	margin-bottom: -8px;
+	margin-top: 11px;
+}
+#header span{
+	margin-left: 2px;
+}
+#header #slogan{
+	float: right;
+}
+#header #slogan p{
+	margin-bottom: 0;
+    margin-top: 41px;
+	vertical-align: bottom;
+	margin-right: 5px;
+	color: #635C55;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+.clear{
+	clear: both;
+}
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	text-align: center;
+}
+.pageLine{
+	background: none repeat scroll 0 0 #D0D0D0;
+    height: 1px;
+    width: 820px;
+}
+
+#slider{
+	border-color: #D0D0D0;
+    border-radius: 7px 7px 7px 7px;
+    border-style: solid;
+    border-width: 1px;
+    height: 380px;	
+    width: 820px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#slider ul	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 3297px;
+}
+#slider li{
+	display: inline;
+}
+#slider li img{
+	width: 820px;
+	height: 380px;
+}
+#slider #imageIndex{
+	left: 15px;
+    position: relative;
+    top: -35px;
+    width: 77px;
+}
+#slider #imageIndex ul{
+	width: 77px;
+}
+#slider #imageIndex li div.bullet{
+	background: url(images/home/bullet_up.png); 
+	width: 15px;
+	height: 13px;
+	display: inline-block;
+}
+#slider #imageIndex li div.bullet.inView{
+	background: url(images/home/bullet_selected.png); 
+}
+
+#buttons{
+	height: 202px;
+	margin-bottom: 30px;
+}
+#buttons div.button{
+	background: -moz-linear-gradient(-90deg, #FFFFFF, #FAFAFA) repeat scroll 0 0 transparent;
+    border-color: #D0D0D0;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 1px;
+    height: 200px;
+    width: 140px;
+    float: left;
+    margin-left: 60px;
+}
+
+#buttons div.button.c1:hover{
+	background: -moz-linear-gradient(-90deg, #A1DEE1, #A1DEE1) repeat scroll 0 0 transparent;
+    border-color: #6DBBBE;
+}
+#buttons div.button.c2:hover{
+	background: -moz-linear-gradient(-90deg, #74A5C6, #6FA0C1) repeat scroll 0 0 transparent;
+    border-color: #6A99BA;
+}
+#buttons div.button.c3:hover{
+	background: -moz-linear-gradient(-90deg, #ECC095, #ECC095) repeat scroll 0 0 transparent;
+    border-color: #DFB083;
+}
+#buttons div.button.c4:hover{
+	background: -moz-linear-gradient(-90deg, #E3B5B7, #E3B5B7) repeat scroll 0 0 transparent;
+    border-color: #D8A0A3;
+}
+#buttons div.button:first-child{
+	margin-left: 35px;	
+}
+#buttons div.button img{
+	margin-top: 30px;
+}
+#buttons div.button span{
+	margin-top: 10px;
+	color: #959494;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+}
+#buttons div.button:hover span{
+	color: #FFFFFF;
+}
+#buttons div.button div{
+	background: none repeat scroll 0 0 #F4F4F4;
+    border-color: #D5D5D5;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    height: 21px;
+    padding: 5px 0 0;
+    width: 78px;
+    margin-top: 26px;
+}
+#buttons div.button div p{
+	margin-bottom: 0;
+    margin-top: 0px;
+    padding-bottom: 0;
+    color: #72A3C5;
+    font-family: 'Arial';
+    font-size: 11px;
+}
+
+#content{
+	margin-bottom: 35px;
+}
+#content p{
+	color: #8C8C8C;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+
+#footer{
+
+}
+#footer img.logo{
+	height: 45px;
+	width: 45px;
+}
+#footer div.logo{
+	float: left;
+}
+#footer h2{
+	margin-bottom: -8px;
+	margin-top: 4px;
+}
+#footer span{
+	margin-left: 2px;
+	font-size: 13px;
+}
+#footer div.contact{
+	display: inline-block;
+}
+#footer div.contact p{
+	margin-left: 100px;
+	margin-top: 0;
+	color: #8C8C8C;
+    font-family: 'Arial';
+    font-size: 13px;
+}
