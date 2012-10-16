@@ -87,11 +87,12 @@ body.whoWeAre #main{
 #slider ul	{
 	margin: 0;
 	padding: 0;
-	list-style-type: none;
-	width: 3297px;
+	height: 380px;
+	width: 3280px;
 }
 #slider li{
-	display: inline;
+	position: relative;
+	display: inline-block;
 }
 #slider li img{
 	width: 820px;
@@ -104,7 +105,8 @@ body.whoWeAre #main{
     width: 77px;
 }
 #slider #imageIndex ul{
-	width: 77px;
+	width: 80px;
+	height: 30px;
 }
 #slider #imageIndex li div.bullet{
 	background: url(images/home/bullet_up.png); 
@@ -121,7 +123,12 @@ body.whoWeAre #main{
 	margin-bottom: 30px;
 }
 #buttons div.button{
-	background: -moz-linear-gradient(-90deg, #FFFFFF, #FAFAFA) repeat scroll 0 0 transparent;
+	background: transparent;
+	background:  -moz-linear-gradient( -90deg, rgba(255,255,255,1), rgba(250,250,250,1) );
+	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(255,255,255)), to(rgb(250,250,250)));
+	background:  -webkit-linear-gradient( -90deg, rgba(255,255,255,1), rgba(250,250,250,1) );
+	background:  -o-linear-gradient( -90deg, rgba(255,255,255,1), rgba(250,250,250,1) );
+	background:  linear-gradient( -90deg, rgba(255,255,255,1), rgba(250,250,250,1) );
     border-color: #D0D0D0;
     border-radius: 8px 8px 8px 8px;
     border-style: solid;
@@ -130,6 +137,7 @@ body.whoWeAre #main{
     width: 140px;
     float: left;
     margin-left: 60px;
+    cursor: pointer;
 }
 #buttons div.button:first-child{
 	margin-left: 35px;	
@@ -141,23 +149,48 @@ body.whoWeAre #main{
 	margin-left: 0px;
 }
 #buttons div.button.c0:hover{
-	background: -moz-linear-gradient(-90deg, #C9D9A2, #C9D9A2) repeat scroll 0 0 transparent;
+	background: transparent;
+	background:  -moz-linear-gradient( -90deg, rgba(201,217,162,1), rgba(201,217,162,1) );
+	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(201,217,162)), to(rgb(201,217,162)));
+	background:  -webkit-linear-gradient( -90deg, rgba(201,217,162,1), rgba(201,217,162,1) );
+	background:  -o-linear-gradient( -90deg, rgba(201,217,162,1), rgba(201,217,162,1) );
+	background:  linear-gradient( -90deg, rgba(201,217,162,1), rgba(201,217,162,1) );
     border-color: #A2BE5C;
 }
 #buttons div.button.c1:hover{
-	background: -moz-linear-gradient(-90deg, #A1DEE1, #A1DEE1) repeat scroll 0 0 transparent;
+	background: transparent;
+	background:  -moz-linear-gradient( -90deg, rgba(161,222,225,1), rgba(161,222,225,1) );
+	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(161,222,225)), to(rgb(161,222,225)));
+	background:  -webkit-linear-gradient( -90deg, rgba(161,222,225,1), rgba(161,222,225,1) );
+	background:  -o-linear-gradient( -90deg, rgba(161,222,225,1), rgba(161,222,225,1) );
+	background:  linear-gradient( -90deg, rgba(161,222,225,1), rgba(161,222,225,1) );
     border-color: #6DBBBE;
 }
 #buttons div.button.c2:hover{
-	background: -moz-linear-gradient(-90deg, #74A5C6, #6FA0C1) repeat scroll 0 0 transparent;
+	background: transparent;
+	background:  -moz-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(116,165,198)), to(rgb(111,160,193)));
+	background:  -webkit-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+	background:  -o-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+	background:  linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
     border-color: #6A99BA;
 }
 #buttons div.button.c3:hover{
-	background: -moz-linear-gradient(-90deg, #ECC095, #ECC095) repeat scroll 0 0 transparent;
+	background: transparent;
+	background:  -moz-linear-gradient( -90deg, rgba(236,192,149,1), rgba(236,192,149,1) );
+	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(236,192,149)), to(rgb(236,192,149)));
+	background:  -webkit-linear-gradient( -90deg, rgba(236,192,149,1), rgba(236,192,149,1) );
+	background:  -o-linear-gradient( -90deg, rgba(236,192,149,1), rgba(236,192,149,1) );
+	background:  linear-gradient( -90deg, rgba(236,192,149,1), rgba(236,192,149,1) );
     border-color: #DFB083;
 }
 #buttons div.button.c4:hover{
-	background: -moz-linear-gradient(-90deg, #E3B5B7, #E3B5B7) repeat scroll 0 0 transparent;
+	background: transparent;
+	background:  -moz-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(227,181,183)), to(rgb(227,181,183)));
+	background:  -webkit-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+	background:  -o-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+	background:  linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
     border-color: #D8A0A3;
 }
 #buttons div.button img{
@@ -267,4 +300,219 @@ body.whoWeAre #main{
     float: right;
     overflow: hidden;
     margin-top: 15px;
+}
+
+/*Values*/
+
+#values{
+	height: 420px;
+	margin-bottom: 25px;
+}
+#values div.left,
+#values div.right{
+	background: none repeat scroll 0 0 #FEFEFE;
+    border-color: #D0D0D0;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 1px;
+    height: 400px;
+    width: 375px;
+    float: left;
+    padding: 5px;
+}
+#values div.left{
+	margin-right: 46px;
+}
+#values h1{
+	color: #959494;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    letter-spacing: -0.5px;
+}
+#values div.left h1{
+	text-align: right;
+}
+#values p{
+	color: #8C8C8C;
+    font-family: 'Arial';
+    font-size: 16px;
+}
+
+/*Solutions*/
+
+#solutions{
+	height: 450px;
+    margin-bottom: 55px;
+}
+#solutions h1{
+	color: #959494;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    letter-spacing: -0.5px;
+}
+#solutions div{
+	width: 820px;
+}
+#solutions div ul{
+	width: 820px;
+	margin: 0;
+    padding: 0;
+}
+#solutions ul li{
+	display: inline-block;
+    position: relative;
+    width: 405px;
+}
+#solutions div.circle{
+	width: 100px;
+	height: 100px; 
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    background-size: 100px auto !important;
+    float: left;
+}
+#solutions div.circle.s1{
+	background: url(images/solutions/editorialization.jpeg) no-repeat scroll 0 0 transparent;
+}
+#solutions div.circle.s2{
+	background: url(images/solutions/medicalWriting.jpeg) no-repeat scroll 0 0 transparent;
+}
+#solutions div.circle.s3{
+	background: url(images/solutions/science.png) no-repeat scroll 50% 35% #72A3C5;
+}
+#solutions div.circle.s4{
+	background: url("images/solutions/phisiologicalTest.jpeg") no-repeat scroll center -90% transparent;
+    border: 1px solid Red;
+    background-size: 110px auto !important;
+}
+#solutions div.circle.s5{
+	background: url(images/solutions/iPad.png) no-repeat scroll 15px 6px #A2BE5C;
+    background-size: 70px auto !important;
+}
+#solutions div.circle.s6{
+	background: url(images/solutions/translate2.png) no-repeat scroll 0 0 transparent;
+}
+#solutions div.circle.s7{
+	background: url(images/solutions/softwareDevelopment.jpeg) no-repeat scroll 0 0 transparent;
+}
+#solutions div.circle.s8{
+	background: url(images/solutions/translate.png) no-repeat scroll 0 0 transparent;
+}
+#solutions li p{
+	color: #959494;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    letter-spacing: -1px;
+	display: inline-block;
+	float: left;
+	max-width: 300px;
+	margin-left: 5px;
+    margin-top: 37px;
+}
+
+/*Contact us*/
+
+#contactUs{
+	height: 450px;
+    margin-bottom: 55px;
+}
+#contactUs h1{
+	color: #635C55;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    letter-spacing: -1px;
+}
+#contactUs div.left,
+#contactUs div.right{
+    height: 400px;
+    width: 375px;
+    float: left;
+    padding: 5px;
+}
+#contactUs div.left{
+	margin-right: 46px;
+}
+#contactUs input,
+#contactUs textarea{
+    color: #8C8C8C;
+    font-family: 'Arial';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px 4px 4px 4px;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#F1F1F1), to(#F1F1F1));
+	background-image: -webkit-linear-gradient(#F1F1F1, #F1F1F1);
+	background-image: -moz-linear-gradient(#F1F1F1, #F1F1F1);
+	background-image: -ms-linear-gradient(#F1F1F1, #F1F1F1);
+	background-image: -o-linear-gradient(#F1F1F1, #F1F1F1);
+	background-image: linear-gradient(#F1F1F1, #F1F1F1);
+    opacity: 1;
+    width: 320px;
+    height: 35px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+#contactUs textarea{
+	height: 100px;
+    width: 360px;
+    max-height: 130px;
+    max-width: 370px;
+}
+#contactUs div.buttons{
+	float: right;
+}
+#contactUs div.buttons div{
+	border: 1px solid #D5D5D5;
+	background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#F4F4F4));
+	background-image: -webkit-linear-gradient(#F8F8F8, #F4F4F4);
+	background-image: -moz-linear-gradient(#F8F8F8, #F4F4F4);
+	background-image: -ms-linear-gradient(#F8F8F8, #F4F4F4);
+	background-image: -o-linear-gradient(#F8F8F8, #F4F4F4);
+	background-image: linear-gradient(#F8F8F8, #F4F4F4);
+    opacity: 1;
+    border-radius: 4px 4px 4px 4px;
+    height: 27px;
+    width: 75px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+#contactUs div.buttons span{
+	color: #6DBBBE;
+    font-family: 'Arial';
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 1.1;
+    margin-top: -0.5px;
+    text-align: center;
+}
+#contactUs #send{
+	margin-left: 15px;
+	margin-right: 7px;
+}
+#contactUs div.right p{
+	color: #8C8C8C;
+    font-family: 'Arial';
+    font-size: 13px;
+}
+#contactUs div.right p.paddress{
+	color: #635C55;
+    font-family: 'Arial';
+    font-size: 13px;
+	font-weight: bold;
+}
+#contactUs div.right div.googleMaps{
+	background: none repeat scroll 0 0 #FEFEFE;
+    border-color: #D0D0D0;
+    border-radius: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 1px;
+    height: 260px;
+    width: 100%;
+    overflow: hidden;
 }
