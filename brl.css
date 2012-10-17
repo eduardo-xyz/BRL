@@ -3,7 +3,7 @@ body, html{
 }
 
 body {
-  background-color:white;
+  background: none repeat scroll 0 0 #FAFAFA;
   min-height: 1000px;
   font-family: Verdana,"Trebuchet MS",sans-serif;
 }
@@ -12,6 +12,17 @@ body.whoWeAre {
 }
 ol, ul {
     list-style: none outside none;
+}
+p {
+    text-align: justify;
+}
+
+.transparent {
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    width: 20%;
+    display: inline-block;
 }
 
 /*Home*/
@@ -37,6 +48,7 @@ body.whoWeAre #main{
 }
 #header div.logo{
 	float: left;
+    cursor: pointer;    
 }
 #header h1{
 	margin-bottom: -8px;
@@ -168,12 +180,12 @@ body.whoWeAre #main{
 }
 #buttons div.button.c2:hover{
 	background: transparent;
-	background:  -moz-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
-	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(116,165,198)), to(rgb(111,160,193)));
-	background:  -webkit-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
-	background:  -o-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
-	background:  linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
-    border-color: #6A99BA;
+    background:  -moz-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+    background:  -webkit-gradient(linear, left top, left bottom, from(rgb(227,181,183)), to(rgb(227,181,183)));
+    background:  -webkit-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+    background:  -o-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+    background:  linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
+    border-color: #D8A0A3;
 }
 #buttons div.button.c3:hover{
 	background: transparent;
@@ -185,13 +197,13 @@ body.whoWeAre #main{
     border-color: #DFB083;
 }
 #buttons div.button.c4:hover{
-	background: transparent;
-	background:  -moz-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
-	background:  -webkit-gradient(linear, left top, left bottom, from(rgb(227,181,183)), to(rgb(227,181,183)));
-	background:  -webkit-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
-	background:  -o-linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
-	background:  linear-gradient( -90deg, rgba(227,181,183,1), rgba(227,181,183,1) );
-    border-color: #D8A0A3;
+    background: transparent;
+    background:  -moz-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+    background:  -webkit-gradient(linear, left top, left bottom, from(rgb(116,165,198)), to(rgb(111,160,193)));
+    background:  -webkit-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+    background:  -o-linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+    background:  linear-gradient( -90deg, rgba(116,165,198,1), rgba(111,160,193,1) );
+    border-color: #6A99BA;
 }
 #buttons div.button img{
 	margin-top: 30px;
@@ -232,7 +244,7 @@ body.whoWeAre #main{
 }
 
 #content{
-	margin-bottom: 35px;
+	margin-bottom: 100px;
 }
 #content p{
 	color: #8C8C8C;
@@ -272,7 +284,8 @@ body.whoWeAre #main{
 /*Who we are*/
 
 #whoWeAre{
-	height: 420px;
+	height: 350px;
+    margin-bottom: 100px;
 }
 #whoWeAre div.content{
 	width: 500px;
@@ -295,18 +308,18 @@ body.whoWeAre #main{
     border-radius: 8px 8px 8px 8px;
     border-style: solid;
     border-width: 1px;
-    height: 300px;
+    height: 290px;
     width: 300px;
     float: right;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 50px;
 }
 
 /*Values*/
 
 #values{
 	height: 420px;
-	margin-bottom: 25px;
+    margin-bottom: 100px;
 }
 #values div.left,
 #values div.right{
@@ -330,7 +343,7 @@ body.whoWeAre #main{
     letter-spacing: -0.5px;
 }
 #values div.left h1{
-	text-align: right;
+	text-align: left;
 }
 #values p{
 	color: #8C8C8C;
@@ -341,8 +354,8 @@ body.whoWeAre #main{
 /*Solutions*/
 
 #solutions{
-	height: 450px;
-    margin-bottom: 55px;
+	height: 500px;
+    margin-bottom: 100px;
 }
 #solutions h1{
 	color: #959494;
@@ -413,8 +426,8 @@ body.whoWeAre #main{
 /*Contact us*/
 
 #contactUs{
-	height: 450px;
-    margin-bottom: 55px;
+	height: 400px;
+    margin-bottom: 100px;
 }
 #contactUs h1{
 	color: #635C55;

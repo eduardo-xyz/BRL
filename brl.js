@@ -51,7 +51,7 @@ $(document).ready(function () {
     	$("#phone").val($("#phone").attr("data-watermark"));
 		$("#message").val($("#message").attr("data-watermark"));
     });
-    $("div.button.c0").click(function(){
+    $("div.button.c0, div.logo").click(function(){
 		window.location.href = "index.html";
     });
     $("div.button.c1").click(function(){
